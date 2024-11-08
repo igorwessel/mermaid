@@ -1,4 +1,4 @@
-import { getEdgeId } from '$root/utils.js';
+import { getEdgeId } from '../../utils.js';
 import { getConfig } from '../../diagram-api/diagramAPI.js';
 import { log } from '../../logger.js';
 import common from '../common/common.js';

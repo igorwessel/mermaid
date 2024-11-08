@@ -26,7 +26,7 @@ import {
 import { log } from '../../../logger.js';
 import { getSubGraphTitleMargins } from '../../../utils/subGraphTitleMargins.js';
 import { getConfig } from '../../../diagram-api/diagramAPI.js';
-import { getEdgeId } from '$root/utils.js';
+import { getEdgeId } from '../../../utils.js';
 
 const recursiveRender = async (_elem, graph, diagramType, id, parentCluster, siteConfig) => {
   log.warn('Graph in recursive render:XAX', graphlibJson.write(graph), parentCluster);
